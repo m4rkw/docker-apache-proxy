@@ -8,5 +8,3 @@ RUN a2enmod proxy_http
 ADD assets /
 
 EXPOSE 80 443
-
-CMD ["/usr/bin/supervisord"]
