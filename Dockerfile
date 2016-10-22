@@ -1,4 +1,4 @@
-FROM m4rkw/ubuntu
+FROM ubuntu:latest
 
 RUN apt-get -yq --allow-unauthenticated install apache2
 
